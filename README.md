@@ -1,8 +1,20 @@
 # cryptobomb
-Bot for Cryptobomb, so I can sleep.
+Tool for Cryptobomb, so I can sleep.
 
 The bot is ready to be used only in my computer, so twist the code around and you'll be able to use it too.
 Some stuff need fixing, some new features need to be added.
+
+Based in python 3.9.7, should work in anything below 3.10 and above 3.
+
+Libs to install(just use pip install): 
+  - from PIL.ImageOps import grayscale
+  - pyautogui
+  - time
+  - keyboard
+  - numpy
+  - random
+  - get_window
+  - opencv 
 
 - TODO
   - Add a "New map function"
