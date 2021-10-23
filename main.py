@@ -4,7 +4,6 @@ import time
 import keyboard
 import numpy as np
 from random import randint
-import win32api, win32con, win32gui
 from get_window import WindowMgr
 import automation
 import new_map
