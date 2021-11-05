@@ -29,10 +29,13 @@ def main():
      #   w.set_foreground()
       #  time.sleep(0.5)
       #  automation.automation()
-      #  if pyautogui.locateOnScreen('ok_button.jpg', grayscale=True, confidence=0.8) != None:
-      #      main()
-      #  #Wait one hour to rerun and make everyone go to work again
-      #  time.sleep(randint(2400, 3000))
+    #Re-run the script and keep looking if theres new map button
+        for i in range(50):
+            #loop 25~30min (add random time to avoid getting detected)
+            time.sleep(randint(24, 30))
+            #Search if the map is finished > change map
+            new_map.new_map()
+            print("finished run ", i, "of  50")
 main()
 
         
